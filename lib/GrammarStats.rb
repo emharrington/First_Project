@@ -16,13 +16,5 @@ class GrammarStats
   
     def percentage_good
         @percentage_good = ((@true_checks / @checks_run.to_f)*100)
-      # Returns as an integer the percentage of texts checked so far 
-      # that passed
-      # the check defined in the `check` method. The number 55 
-      #represents 55%.
     end
 end
-
-#i want to see the percentage of checks that have been run within the
-#check method & passed!!
-#integer will = exact percentage, e.g. 55 = 55%
